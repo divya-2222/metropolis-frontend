@@ -1,0 +1,89 @@
+
+.metro-nav{
+  background-color: rgb(13, 190, 13);
+  height: 67px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.metro-logo{
+  height: 30px;
+ padding: 20px;
+
+}
+.rgt-side-nav{
+  display: flex;
+}
+.calling-logo{
+  padding: 14px;
+
+}
+.number{
+  color: white;
+  padding-right: 20px;
+  font-weight: 700;
+  word-spacing: 3px;
+  /* font-size: 20px; */
+}
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: green;
+    font-weight: 700;
+     /* color: linear-gradient(105deg, #019959 0%, #08a1a7 100%);  */
+  }
+  label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  input, select {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  .checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .checkboxes label {
+    width: 45%;
+    margin-bottom: 10px;
+  }
+  .submit{
+    /* background-color: green; */
+    color:black;
+    border: 2px solid white;
+    /* font-family: 48px; */
+  }
+  .submit:hover{
+    background-color: green;
+    cursor: pointer;
+    color: white;
+  }
+  .terms-conditions{
+    display: flex;
+  font-size: 30px;
+  font-weight: 700;
+  padding-left: 50px;
+  padding-top: 40px;
+  }
+  .ul{
+    /* padding-left: 100px; */
+    /* padding: 10px; */
+    line-height: 18px;
+    font-size: 18px;
+  }
+  .footer{
+    background: #019959;
+    color: white;
+  }
+  .footer-div{
+    font-size: 24px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+  }
