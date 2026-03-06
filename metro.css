@@ -99,6 +99,8 @@ body {
 }
 
 .rate {
+  
+  flex-direction:column;
   border: 2px solid transparent;
   width: 500px;
   height: 216px;
@@ -827,6 +829,7 @@ display: flex;
 
 
 }
+
 
 
 
