@@ -446,392 +446,165 @@ display: flex;
 
 
 
-@media(max-width: 765px) {
+@media (max-width:768px){
 
-
-
-
-
-  .metro-nav {
-    background-color: rgb(13, 190, 13);
-    height: 67px;
-    display: flex;
-    justify-content: space-between;
-
-  }
-
-  .metro-logo {
-    height: 25px;
-    padding: 20px;
-
-  }
-
-  .rgt-side-nav {
-    display: flex;
-  }
-
-  .calling-logo {
-    padding: 14px;
-
-  }
-
-  .number {
-    color: white;
-    padding-right: 20px;
-    font-weight: 700;
-    word-spacing: 1px;
-    /* font-size: 20px; */
-  }
-
-
-  .video-div {
-    width: 100vw;
-    height: 85vh;
-    overflow: hidden;
-  }
-
-  .video-div video {
-    width: 100%;
-    height: 84%;
-    object-fit: cover;
-    position: absolute;
-    z-index: 0;
-    justify-content: center;
-  }
-
-  .content {
-    position: relative;
-    color: rgb(233, 233, 233);
-    margin-left: 50px;
-    font-size: 26px;
-    margin-bottom: 500px;
-    font-weight: 1000;
-    padding-top: 25px;
-  }
-
-  .video {
-
-    background-color: #00000077;
-    z-index: 1;
-  }
-
-  .rate {
-    border: 2px solid transparent;
-    width: 500px;
-    height: 216px;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-  }
-
-  .png {
-    height: 50px;
-    width: 50px;
-  }
-
-  .pointer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-  }
-
-  .pointer-img {
-    height: 50px;
-  }
-
-  .heading-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .heading-div h1 {
-    color: #003D4D;
-    letter-spacing: 2px;
-    font-size: 30px;
-  }
-
-  .para-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .para-div p {
-    color: #7E7E7E;
-    padding-left: 50px;
-
-  }
-
-  .line-break {
-    display: flex;
-    justify-content: center;
-  }
-
-  .cbc {
-    background: #003D4D;
-    color: white;
-    font-size: 30px;
-    display: flex;
-    justify-content: space-between;
-    width: 480px;
-    padding: 3px;
-    border: 2px solid transparent;
-    border-radius: 5px;
-    margin-left: 125px;
-  }
-
-  .cbc:hover {
-    cursor: pointer;
-  }
-
-  .arrow-png {
-    height: 30px;
-    width: 21px;
-  }
-
-  .test {
-    font-size: 28px;
-    border-bottom: 1px solid #c5c3c3;
-    width: 538px;
-    /* margin-left: 75px; */
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    /* padding-left: 45px; */
-    padding-bottom: 15px;
-    color: #7E7E7E
-  }
-
-  .test:hover {
-    border-bottom: 1px solid black;
-    color: black;
-    cursor: pointer;
-  }
-
-  .cbc-maindiv {
-    display: block;
-    gap: 95px;
-  }
-
-  .tube-img {
-    height: 281px;
-    width: 586px;
-    margin-left: 75px;
-
-  }
-
-  .content-div {
-    margin-right: 93px;
-    background: #0BA5CC;
-    /* padding: 20px; */
-    margin-left: 76px;
-  }
-
-  .btn {
-    font-size: 25px;
-    padding-left: 13px;
-    padding-right: 13px;
-    /* padding-top: 6px; */
-    /* padding-bottom:6px ; */
-    margin-left: -5px;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    border: 1px solid transparent;
-    border-radius: 7px;
-
-  }
-
-  .book-now {
-    text-decoration: none;
-    color: black;
-  }
-
-  .btn:hover {
-    background-color: #0BA5CC;
-    border: 2px solid black;
-    color: #f0f0f0;
-    cursor: pointer;
-  }
-
-  .second-div {
-    background: linear-gradient(105deg, #019959 0%, #08a1a7 100%);
-    display: flex;
-    margin-top: 14px;
-    margin-right: 91px;
-    margin-left: 77px;
-    justify-content: space-between;
-    height: 67vh;
-  }
-
-  .img {
-    height: 229px;
-    width: auto;
-  }
-    /* .why {
-      display: flex;
-      padding-left: 27px;
-      margin-top: 12px;
-      
-      margin-bottom: 65px;
-      font-size:20px;
-      color: white;
-    }
-
-    .oneline {
-      display: flex;
-      gap: 14px;
-      justify-content: space-around;
-      margin-right: 172px;
-      font-size: 15px;
-      font-weight: 600;
-      padding-left: 31px;
-    }
-
-    .twoline {
-      display: flex;
-      gap: 14px;
-      justify-content: space-around;
-      margin-right: 172px;
-      font-weight: 700;
-      font-size: 15px;
-      padding-left: 31px;
-    }
-
-    .threeline {
-      display: flex;
-      gap: 14px;
-      justify-content: space-around;
-      margin-right: 172px;
-      font-weight: 700;
-      font-size: 15px;
-      padding-left: 31px;
-    } */
-
-    .ans {
-      margin-top: -53px;
-      color: white;
-    }
-
-    .ani-div {
-      /* background-color: #f0f9f4; */
-      flex-direction: column !important;
-     
-    }
-    /* .ani-div2{
-      display: block; 
-      } */
-    .ani-div-head {
-      font-size: 38px;
-      padding-top: 70px;
-      padding-left: 15px;
-    }
-
-    .card-div {
-      display: flex;
-      gap: 45px;
-      padding-right: 7px;
-      padding-top: 70px;
-    }
-
-    .scroll-container {
-      width: 100%;
-      overflow: hidden;
-      background: #f0f9f4;
-      padding: 20px 0;
-      padding-top: 80px;
-    }
-
-    .scroll-div-main {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: #f0f9f4;
-      ;
-    }
-
-    .scroll-div {
-      display: flex;
-      flex-direction: column;
-      width: 80%;
-      justify-content: center;
-      align-items: center;
-      overflow: hidden;
-    }
-
-    .scroll-track {
-      display: flex;
-      width: max-content;
-      animation: scroll-left 40s linear infinite;
-    }
-
-    .ani-card {
-      flex: 0 0 auto;
-      width: 300px;
-      margin-right: 20px;
-      padding: 16px;
-      background-color: #f0f0f0;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      font-size: 14px;
-      line-height: 1.4;
-    }
-
-    .ani-card:hover {
-      background: linear-gradient(105deg, #019959 0%, #08a1a7 100%);
-      cursor: pointer;
-      /* transition: calc(); */
-      box-shadow: 3px 3px 5px;
-    }
-
-
-    @keyframes scroll-left {
-      0% {
-        transform: translateX(0%);
-      }
-
-      100% {
-        transform: translateX(-50%);
-      }
-    }
-
-    .terms-conditions {
-      display: flex;
-      font-size: 20px;
-      font-weight: 700;
-      padding-left: 50px;
-      padding-top: 40px;
-    }
-
-    .ul {
-      /* padding-left: 100px; */
-      /* padding: 10px; */
-      line-height: 18px;
-      font-size: 18px;
-    }
-
-    .footer {
-      background: #019959;
-      color: white;
-    }
-
-    .footer-div {
-      font-size: 17px;
-      padding: 20px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-weight: 800;
-    }
-
-
-
+body{
+overflow-x:hidden;
 }
 
+/* Navbar */
 
+.metro-nav{
+flex-direction:column;
+height:auto;
+align-items:center;
+padding:10px;
+}
 
+.rgt-side-nav{
+align-items:center;
+}
 
+.metro-logo{
+height:25px;
+padding:10px;
+}
 
+/* Video */
 
+.video-div{
+height:auto;
+}
+
+.video-div video{
+position:relative;
+height:auto;
+}
+
+/* Content text */
+
+.content{
+font-size:22px;
+margin-left:15px;
+margin-bottom:50px;
+}
+
+/* Home section */
+
+.home{
+flex-direction:column;
+height:auto;
+gap:15px;
+padding:15px;
+width:100%;
+}
+
+/* Rate section */
+
+.rate{
+width:100%;
+height:auto;
+flex-direction:column;
+align-items:flex-start;
+padding-left:20px;
+}
+
+/* CBC section */
+
+.cbc{
+width:90%;
+margin:10px auto;
+font-size:20px;
+}
+
+.test{
+width:90%;
+margin:auto;
+font-size:18px;
+padding-left:10px;
+}
+
+/* CBC layout */
+
+.cbc-maindiv{
+flex-direction:column;
+gap:20px;
+align-items:center;
+}
+
+/* Image */
+
+.tube-img{
+width:100%;
+height:auto;
+margin:0;
+}
+
+/* Content box */
+
+.content-div{
+margin:10px;
+}
+
+/* Button */
+
+.btn{
+font-size:18px;
+margin-top:20px;
+}
+
+/* Why section */
+
+.second-div{
+flex-direction:column;
+height:auto;
+margin:0;
+padding:20px;
+align-items:center;
+text-align:center;
+}
+
+.img{
+width:90%;
+height:auto;
+}
+
+/* Animation cards */
+
+.ani-div{
+flex-direction:column;
+}
+
+.ani-div-head{
+font-size:26px;
+padding-left:15px;
+}
+
+.card-div{
+flex-direction:column;
+align-items:center;
+gap:20px;
+padding:20px;
+}
+
+/* Scroll cards */
+
+.ani-card{
+width:250px;
+}
+
+/* Terms */
+
+.terms-conditions{
+font-size:22px;
+padding-left:20px;
+}
+
+/* Footer */
+
+.footer-div{
+font-size:16px;
+text-align:center;
+}
+
+}
